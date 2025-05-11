@@ -1,5 +1,5 @@
 from flask import Flask , request, jsonify  # Importa a classe Flask do módulo 
-import mysql.connector  #connectorandoiblioteca mysql conector, para conectar o código ao meu banco de dados.
+import mysql.connector  #connectando biblioteca mysql conector, para conectar o código ao meu banco de dados.
 
 app=Flask(__name__)  # Cria uma instância da aplicação Flask
 
